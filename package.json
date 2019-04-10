@@ -1,0 +1,23 @@
+{
+  "name": "decagon-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "addTwoNumber.js",
+  "dependencies": {
+    "jest": "^24.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagajastic/decagon-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagajastic/decagon-test/issues"
+  },
+  "homepage": "https://github.com/jagajastic/decagon-test#readme"
+}
