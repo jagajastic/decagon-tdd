@@ -17,3 +17,8 @@ test('Should output a sumof teo number', function(){
     const sum = addTwoNumber(0, 8);
     expect(sum).toBe(8);
 });
+
+test('test for empty params', function(){
+    const sum = addTwoNumber();
+    expect(sum).toBeFalsy();
+});

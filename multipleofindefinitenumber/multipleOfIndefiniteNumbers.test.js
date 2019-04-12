@@ -10,3 +10,8 @@ test('Multiple of special character, strings and positive and negative number', 
     const multipleOfNumbers = multipleOfIndefiniteNumbers('hello', '@', 9, -0, 99, true, false);
     expect(multipleOfNumbers).toBeFalsy();
 });
+
+test('Multiple two argument with no value', function(){
+    const multipleOfNumbers = multipleOfIndefiniteNumbers();
+    expect(multipleOfNumbers).toBeFalsy();
+});

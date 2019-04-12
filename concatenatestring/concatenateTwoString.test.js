@@ -8,4 +8,9 @@ test('Concatenate two string', function(){
 test('Concatenate number and string', function(){
     const concatStrings = concatenateTwoString(56, 'Yess boy');
     expect(concatStrings).toBeFalsy();
+});
+
+test('Concatenate without params', function(){
+    const concatStrings = concatenateTwoString();
+    expect(concatStrings).toBeFalsy();
 })
