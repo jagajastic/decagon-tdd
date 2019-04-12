@@ -14,3 +14,8 @@ test('Should return falsy when boolean is among the value', function(){
     const sumIdefiniteNum = addIndefiniteNumber(true, false, -9, 'hdhd', '+');
     expect(sumIdefiniteNum).toBeFalsy();
 });
+
+test('Test for no params', function(){
+    const sumIdefiniteNum = addIndefiniteNumber();
+    expect(sumIdefiniteNum).toBeFalsy()
+});
