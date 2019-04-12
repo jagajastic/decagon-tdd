@@ -14,3 +14,9 @@ test('difference of special character and negative number', function(){
     const differencOfNumber = differenceOfTwoNumbers('@', -9);
     expect(differencOfNumber).toBeFalsy();
 });
+
+
+test('difference with no params', function(){
+    const differencOfNumber = differenceOfTwoNumbers();
+    expect(differencOfNumber).toBeFalsy();
+});
